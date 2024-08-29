@@ -18,7 +18,7 @@ const Popup = ({ onClose }) => {
           className="bg-[#ffffff] rounded-full px-6 py-2 text--2xl sm:text-5xl font-kid  font-bold border-2 hover:scale-125"
           onClick={onClose}
         >
-          Nubshib - $TiTY
+          Taty - $TATY
         </button>
       </div>
     </div>
