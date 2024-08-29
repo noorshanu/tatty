@@ -58,14 +58,15 @@ function AppLayout() {
         <Hero />
         <div className=" flex justify-center my-4 ">
           <button
-            className="bg-[#ffffff] border-2  text-black font-bold py-2 px-16 rounded focus:outline-none focus:shadow-outline  hover:scale-125"
+            className="bg-[#ffffff] border-2 font-kid text-3xl box-s2  text-black font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline  hover:scale-125"
             onClick={handlePlayPause}
           >
             {isPlaying ? "Pause " : "Play Music"}
           </button>
         
         </div>
-        <a href="https://solscan.io/" target="_blank" className="bg-[#ffffff] border-2 my-2 text-black font-bold py-2 px-2 sm:px-16 rounded sm:text-lg text-xs   flex justify-center w-[360px] sm:w-[720px] mx-auto">CA : Hv1pMPytvgMPUVQUdXsBWhvgdYJqcRdKSeRBK3BrhYcu</a>
+        <a href="https://solscan.io/" target="_blank" className="bg-[#ffffff59] border-2 my-2 text-black font-bold py-2 px-2 sm:px-16 rounded-full sm:text-lg text-xs box-s2
+          flex justify-center w-[360px] sm:w-[720px] mx-auto">CA : Hv1pMPytvgMPUVQUdXsBWhvgdYJqcRdKSeRBK3BrhYcu</a>
         <audio ref={audioRef} src={Music}></audio>
 
       
@@ -85,16 +86,7 @@ function AppLayout() {
         <Mission/>
         <dl className="h-[50px]" />
         <HowToBuy/>
-        {/* <div>
-          <Photo/>
-        </div> */}
-        {/* <div className=" bg-[#ffffff]">
-        <MemeCards />
-        </div> */}
-   
-        {/* <div>
-          <Partner />
-        </div> */}
+       
       </div>
       <Footer />
     </>

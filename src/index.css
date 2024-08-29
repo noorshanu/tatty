@@ -22,7 +22,7 @@
 
   html,
   body {
-    @apply bg-[#ffffff] text-black  ;
+    @apply bg-[#f3f3f3] text-black  ;
   }
 
   .container-wrapper {
@@ -148,7 +148,10 @@
 }
 
 
-
+.box-s2{
+  box-shadow: rgb(0, 0, 0) 2px 4px 0px 0px;
+  opacity: 1;
+}
 @media (max-width:768px) {
   .big-info__inner {
   flex-direction: column;

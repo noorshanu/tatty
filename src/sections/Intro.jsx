@@ -14,7 +14,7 @@ const Intro = () => {
 
         <div className="  px-4  py-6  text-center border-[#000000] relative z-50 rounded-2xl  ">
           <h1 className=" text-4xl sm:text-5xl font-bold text-center my-3">
-          NubShib is the sweet Shib for the goofiest of pals.
+          $TATY is the sweet Shib for the goofiest of pals.
           </h1>
 
         <p></p>
