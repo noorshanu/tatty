@@ -8,19 +8,19 @@ function Tokenomic() {
       </h1>
 
       <div className=" flex justify-between flex-col sm:flex-row gap-4 items-center">
-        <div className=" w-full sm:w-[300px] bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl">
+        <div className=" w-full sm:w-[300px] bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl box-s2">
           <h1 className=" text-2xl font-semibold  pb-2">Token Name</h1>
 
           <p className=" text-lg font-semibold">$TATY</p>
         </div>
 
-        <div className=" w-full sm:w-[300px] bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl">
+        <div className=" w-full sm:w-[300px] bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl box-s2">
           <h1 className=" text-2xl font-semibold  pb-2">Symbol</h1>
 
           <p className=" text-lg font-semibold">$TATY</p>
         </div>
 
-        <div className=" w-full sm:w-[300px] bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl">
+        <div className=" w-full sm:w-[300px] bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl box-s2">
           <h1 className=" text-2xl font-semibold  pb-2">Total Supply</h1>
 
           <p className=" text-lg font-semibold">1,000,000,000</p>

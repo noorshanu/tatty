@@ -8,7 +8,7 @@ function HowToBuy() {
 
          <div className=' flex justify-between items-center gap-4 flex-col sm:flex-row'>
 
-            <div  className=" bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl w-full sm:w-[250px]">
+            <div  className=" bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl w-full sm:w-[250px] box-s2">
                 <h1 className=' text-2xl font-semibold  pb-2'>
                 1. Get Wallet
                 </h1>
@@ -19,7 +19,7 @@ function HowToBuy() {
                 </p>
             </div>
 
-            <div  className=" bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl w-full sm:w-[250px]">
+            <div  className=" bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl w-full sm:w-[250px] box-s2">
             <h1 className=' text-2xl font-semibold  pb-2'>
                 2. Get SOL
                 </h1>
@@ -28,7 +28,7 @@ function HowToBuy() {
                 </p>
             </div>
 
-            <div  className=" bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl w-full sm:w-[280px]">
+            <div  className=" bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl w-full sm:w-[280px] box-s2">
             <h1 className=' text-2xl font-semibold  pb-2'>
                 3. Go to Raydium
                 </h1>
@@ -38,7 +38,7 @@ function HowToBuy() {
             </div>
 
 
-            <div  className=" bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl w-full sm:w-[250px]">
+            <div  className=" bg-[#ffff] border-2   py-8 px-4 rounded-2xl shadow-xl w-full sm:w-[250px] box-s2">
             <h1 className=' text-2xl font-semibold  pb-2'>
                 4. Swap SOL to $TATY
                 </h1>

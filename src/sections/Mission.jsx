@@ -10,7 +10,7 @@ function Mission() {
           <img src="images/about2.png" alt=""   />
         </div>
 
-        <div className=" bg-white border-2   py-8 px-4 rounded-2xl shadow-xl max-w-2xl ">
+        <div className=" bg-white border-2   py-8 px-4 rounded-2xl shadow-xl max-w-2xl box-s2 ">
           <h1 className=" font-kid font-bold text-3xl sm:text-5xl my-3">$TATY Mission</h1>
 
           <p className=" text-lg sm:text-xl "> 
