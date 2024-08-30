@@ -66,7 +66,7 @@ function AppLayout() {
         
         </div>
         <a href="https://solscan.io/" target="_blank" className="bg-[#ffffff59] border-2 my-2 text-black font-bold py-2 px-2 sm:px-16 rounded-full sm:text-lg text-xs box-s2
-          flex justify-center w-[360px] sm:w-[720px] mx-auto">CA : Hv1pMPytvgMPUVQUdXsBWhvgdYJqcRdKSeRBK3BrhYcu</a>
+          flex justify-center w-[360px] sm:w-[720px] mx-auto">CA : coming soon....</a>
         <audio ref={audioRef} src={Music}></audio>
 
       
