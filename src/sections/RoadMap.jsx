@@ -2,7 +2,7 @@ import React from "react";
 
 function RoadMap() {
   return (
-    <section className="relative z-10 ">
+    <section className="relative z-10 " id="road">
       <img
         src="images/army.png"
         alt=""

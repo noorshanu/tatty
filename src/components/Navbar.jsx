@@ -21,9 +21,9 @@ function Navbar() {
         <div className="hidden md:flex flex-grow justify-center">
           <a href="/" className="text-black font-bold text-lg px-3 py-2 font-kid">Home</a>
           <a href="#about" className="text-black font-bold text-lg px-3 py-2 font-kid">About</a>
-          <a href="#col" className="text-black font-bold text-lg px-3 py-2 font-kid">Features</a>
+          <a href="#about" className="text-black font-bold text-lg px-3 py-2 font-kid">Tatynomics</a>
          
-          <a href="#contact" className="text-black font-bold text-lg px-3 py-2 font-kid">Contact Us</a>
+          <a href="#road" className="text-black font-bold text-lg px-3 py-2 font-kid">Roadmap</a>
         </div>
 
         {/* Wallet Connect button */}
@@ -68,12 +68,13 @@ function Navbar() {
         {(ref) => (
           <div
             ref={ref}
-            className="md:hidden bg-white rounded-2xl border-2 border-[#000] px-2 pt-2 pb-3 space-y-1 m-4"
+            className="md:hidden bg-white rounded-2xl border-2 border-[#000] px-2 pt-2 pb-3 space-y-1 m-4 z-50"
           >
-            <a href="/" className="text-black font-bold text-lg block px-3 py-2">Home</a>
+            <a href="/" onClick={() => setIsOpen(!isOpen)} className="text-black font-bold text-lg block px-3 py-2">Home</a>
           
-            <a href="#about" className="text-black font-bold text-lg block px-3 py-2">About</a>
-            <a href="#col" className="text-black font-bold text-lg block px-3 py-2">Features</a>
+            <a href="#about" onClick={() => setIsOpen(!isOpen)} className="text-black font-bold text-lg block px-3 py-2">About</a>
+            <a href="#about" onClick={() => setIsOpen(!isOpen)} className="text-black font-bold text-lg block px-3 py-2">Tatynomics</a>
+            <a href="#road" onClick={() => setIsOpen(!isOpen)} className="text-black font-bold text-lg block px-3 py-2">Roadmap</a>
             
             <div className=" flex items-center gap-4 text-white mb-6 ml-5">
             <a

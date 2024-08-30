@@ -5,7 +5,7 @@ import Tokenomic from "./Tokenomic";
 const Intro = () => {
   return (
     <>
-      <div className=" container-wrapper  px-4 relative  ">
+      <div className=" container-wrapper  px-4 relative  " id="about">
         <img
           src="images/about.png"
           alt=""
@@ -13,7 +13,7 @@ const Intro = () => {
         />
 
         <div className="  px-4  py-6  text-center border-[#000000] relative z-50 rounded-2xl  ">
-          <h1 className=" text-4xl sm:text-3xl font-bold text-center my-3">
+          <h1 className=" text-xl sm:text-3xl font-bold text-center my-3">
           TATY, the raggedy cat who's done with all the weak shitcoins on Solana, is here to raise hell and break the mold. yep yep, purrfect pump!
           </h1>
 
