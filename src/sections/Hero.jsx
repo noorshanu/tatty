@@ -43,7 +43,7 @@ function Hero() {
           </a>
         </div>
 
-        <p className=" text-center max-w-full px-3 mx-auto py-2 sm:max-w-2xl ">
+        <p id="about" className=" text-center max-w-full px-3 mx-auto py-2 sm:max-w-2xl ">
         TATY, the raggedy cat who's done with all the weak shitcoins on Solana, is here to raise hell and break the mold. This ain’t your average meme coin—TATY’s got a squad ready to shake things up and make the market our playground!
         </p>
       </div>

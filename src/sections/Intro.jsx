@@ -5,7 +5,7 @@ import Tokenomic from "./Tokenomic";
 const Intro = () => {
   return (
     <>
-      <div className=" container-wrapper  px-4 relative  " id="about">
+      <div className=" container-wrapper  px-4 relative  " id="token">
         <img
           src="images/about.png"
           alt=""
