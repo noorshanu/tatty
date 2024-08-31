@@ -78,7 +78,7 @@ function Navbar() {
             
             <div className=" flex items-center gap-4 text-white mb-6 ml-5">
             <a
-                  href="https://x.com/Tatyonsol"
+                  href="https://x.com/TatyCoinSol"
                   className=" text-xl text-black bg-white hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <BsTwitterX />

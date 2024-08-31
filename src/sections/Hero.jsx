@@ -20,7 +20,7 @@ function Hero() {
 
         <div className=" flex justify-center gap-5 items-center mt-[2rem]">
           <a
-            href="https://x.com/Tatyonsol"
+            href="https://x.com/TatyCoinSol"
             className=" text-xl text-black bg-[#ffffff] hover:scale-125 hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
           >
             <BsTwitterX />
